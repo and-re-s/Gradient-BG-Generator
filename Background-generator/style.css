@@ -9,7 +9,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .1em;
-	background: linear-gradient(to right, violet , lightgreen); /* Standard syntax */
 }
 
 div#container {
@@ -29,6 +28,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .1em;
     width: 100%;
+    font-weight: 800;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 h2 {
